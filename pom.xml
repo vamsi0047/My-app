@@ -67,13 +67,13 @@
   <distributionManagement>
     <repository>
         <id>central</id>
-        <name>822350e06eaa-releases</name>
-        <url>http://localhost:8082/artifactory/Hello-world/</url>
+        <name>49269797bc0d-releases</name>
+        <url>http://localhost:8081/artifactory/Hello-world</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>822350e06eaa-snapshots</name>
-        <url>http://localhost:8082/artifactory/Hello-world/</url>
+        <name>49269797bc0d-snapshots</name>
+        <url>http://localhost:8081/artifactory/Hello-world</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
