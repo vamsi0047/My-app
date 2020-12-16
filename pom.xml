@@ -67,12 +67,12 @@
    <distributionManagement>
     <repository>
         <id>Localrepo</id>
-        <name>49269797bc0d-releases</name>
+        <name>releases</name>
         <url>http://localhost:8081/artifactory/Localrepo</url>
     </repository>
     <snapshotRepository>
         <id>Localrepo</id>
-        <name>49269797bc0d-snapshots</name>
+        <name>snapshots</name>
         <url>http://localhost:8081/artifactory/Localrepo</url>
     </snapshotRepository>
 </distributionManagement>
