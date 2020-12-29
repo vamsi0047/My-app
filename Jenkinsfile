@@ -1,9 +1,5 @@
 pipeline{
    agent any
-   parameters{
-     choice(name:'branch', choices:['master','UAT','sprint'],defaultValue:'master')
-     string(name:'name',defaultValue:'vamsi',description:'enter your name')
-   }
    stages{
      stage("checkout code"){
      steps{
