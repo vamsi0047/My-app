@@ -68,12 +68,12 @@
     <repository>
         <id>Localrepo</id>
         <name>releases</name>
-        <url>http://localhost:8081/artifactory/Localrepo</url>
+        <url>http://localhost:8082/artifactory/Localreporeleases</url>
     </repository>
     <snapshotRepository>
         <id>Localrepo</id>
         <name>snapshots</name>
-        <url>http://localhost:8081/artifactory/Localrepo</url>
+        <url>http://localhost:8082/artifactory/Localreposnapshots</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
