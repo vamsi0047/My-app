@@ -6,9 +6,15 @@ pipeline{
       git url:'https://github.com/vamsi0047/My-ap.git'
      }
      }
-     stage("build the code"){
+     stage("testing"){
        steps{
           sh 'mvn clean test'
+       }
+     
+     }
+     stage("building"){
+       steps{
+          sh 'mvn package'
        }
      
      }
