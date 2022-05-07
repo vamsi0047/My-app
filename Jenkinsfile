@@ -1,7 +1,7 @@
 pipeline{
    agent any
    stages{
-     stage("checkout code"){
+     stage("checkout dode"){
      steps{
       git url:'https://github.com/vamsi0047/My-app.git'
      }
